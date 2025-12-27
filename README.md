@@ -24,5 +24,8 @@ The game can be configured by changing the board dimensions, the snake's speed a
 
 The game is currently hosted hosted [here](https://nascimento-mario.github.io/SnakeMove/) (just load the URL and play). *The game requires permission to access your webcam, but no image is recorded or transmitted, period.*
 
-<img src="Images/SnakeFingerLanding.png" alt="Images/SnakeFingerLanding.png" style="width:75%; height:auto;">
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="Images/SnakeFingerLanding.png" alt="Images/SnakeFingerLanding.png" style="width:75%; height:auto;">
+</div>
+
 
