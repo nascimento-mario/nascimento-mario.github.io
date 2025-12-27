@@ -23,7 +23,7 @@ This is an Android-based game where the user must control a ball by tilting the 
 
 The game has several levels of increasing difficulty, where the phone becomes more sensitive to the user's movements, the ball slides more easily and other balls stand on the way.
 
-Source code available at [https://github.com/nascimento-mario/Tilt2Score](https://github.com/nascimento-mario/Tilt2Score), and a pre-release Android version ready to installed can be downloaded [here](Artifacts/Tilt2Score-release.apk). *Please note that even though it has been tested by the author, if you choose to install and use it, you'll be doing so at your own risk.* 
+Source code available at [https://github.com/nascimento-mario/Tilt2Score](https://github.com/nascimento-mario/Tilt2Score), and a pre-release Android version ready to installed can be downloaded [here](Artifacts/Tilt2ScorePreRelease.apk). *Please note that even though it has been tested by the author, if you choose to install and use it, you'll be doing so at your own risk.* 
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="Images/Tilt2ScoreLanding.jpg" alt="Tilt2Score Main Page" style="width: 25%; padding: 20px;">
