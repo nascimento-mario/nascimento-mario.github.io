@@ -11,7 +11,7 @@ This website is meant mainly to publish things (so I don't lose them myself) I'v
 
 ## Academics
 
-After being an academic for 25+ years I am on a "kind of retirement" path, though I'm still active collaborating with colleagues. According to [Google Scholar](https://scholar.google.ca/) my publications have been cited 5,200+ times, yielding an H-index of 35 [DBLP](https://dblp.org/) kindly maintains (most of) [my publications organized by year(https://dblp.org/pid/n/MarioANascimento.html). 
+After being an academic for 25+ years I am on a "kind of retirement" path, though I'm still active collaborating with colleagues. According to [Google Scholar](https://scholar.google.ca/) my publications have been cited 5,200+ times, yielding an H-index of 35. [DBLP](https://dblp.org/) kindly maintains (most of) my publications organized by year [here](https://dblp.org/pid/n/MarioANascimento.html). 
 
 ## Coding
 
