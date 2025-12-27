@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mario Nascimento</title>
+
+  <style>
+    :root {
+      --bg: #e3e3e3;
+      --bg-alt: #eeeeee;
+      --text: #2e2e2e;
+      --muted: #6b6b6b;
+      --accent: #4a4a4a;
+      --border: #d6d6d6;
+      --max-width: 760px;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      width: 100%;
+      background: white;
+      padding: 2.5rem 2rem;
+      border: 1px solid var(--border);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    header img {
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-alt);
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.8rem;
+    }
+
+    nav {
+      margin-bottom: 2.5rem;
+      padding: 1.2rem 1.5rem;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+    }
+
+    nav h2 {
+      margin-top: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.8rem 0 0;
+      columns: 2;
+    }
+
+    nav li {
+      margin: 0.3rem 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent);
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-family: Helvetica, Arial, sans-serif;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    section h3 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.05rem;
+      margin-top: 1.6rem;
+      margin-bottom: 0.4rem;
+      color: var(--accent);
+    }
+
+    section ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section li {
+      margin-bottom: 0.4rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav ul {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <img src="mn-picture.jpg" alt="Profile picture" />
+      <h1>Mario Nascimento (Personal Website)</h1>
+    </header>
+
+    <nav>
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#bio">Short Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        This website is meant mainly to record some of my academic past (e.g., affiliations and publications), as well as to publish a few things (e.g., coding “adventures”) I have been doing more recently.
+      </p>
+      <p>
+        From a more personal side, I like photography (it is amazing what one can do with cell phones these days!) and running outdoors, with the goal of doing 10 km in the same number of minutes as my age (so far, so good!). I also enjoy traveling (though I have grown tired of long flights), and have been fortunate that my work has contributed to that a great deal. At this point, I have been to <a href="myVisitedPlaces.png">50 countries</a>.
+      </p>
+    </section>
+
+    <section id="bio">
+      <h2>Short Bio</h2>
+      <p>
+        I have been in academia since 1996 and am currently in semi-retirement mode. That is, while I do not hold a full-time position, I continue to collaborate with (and visit) colleagues.
+      </p>
+      <p>
+        In academia, publications matter a lot. For most of my academic life, my main research interests have been related to spatiotemporal data management. According to Google Scholar, <a href="https://scholar.google.com/citations?hl=en&user=_Pzbd0kAAAAJ">my publications have been cited over 5,200 times</a>, yielding an h-index of 35. DBLP kindly maintains (most of) my publications organized by year <a href="https://dblp.org/pid/n/MarioANascimento.html">here</a>.
+      </p>
+      <p>
+        Regarding academic positions (from most to least recent), I have served as:
+      </p>
+      <ul>
+        <li>Director of Pacific Northwest Research at <a href="https://www.khoury.northeastern.edu/">Northeastern University’s Khoury College of Computer Sciences</a></li>
+        <li>Professor in the <a href="https://www.ualberta.ca/computing-science/index.html">Department of Computing Science at the University of Alberta</a> (including six years as Department Chair)</li>
+        <li>Researcher with the <a href="http://www.embrapa.br/english">Brazilian Agency for Agricultural Research</a> (EMBRAPA)</li>
+        <li>Adjunct faculty member at the <a href="http://www.ic.unicamp.br/">Institute of Computing, University of Campinas</a> (UNICAMP)</li>
+      </ul>
+      <p>
+        Over the years, e.g., during sabbatical leaves, I have also been a visiting professor at <a href="http://www.ifi.lmu.de/">LMU’s Institute for Informatics</a> in Germany, at the <a href="http://www.mdcc.ufc.br/">Department of Computer Science at the Federal University of Ceara</a> in Brazil.<a href="http://www.comp.nus.edu.sg/">National University of Singapore’s School of Computing</a>, and at the <a href="http://www.cs.aau.dk/en/">Aalborg University’s Department of Computer Science</a> in Denmark.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        There are two types of open-source projects I have worked on recently: academic work and mobile apps I have dabbled in. The former typically originates from academic research translated into demonstration papers, whereas the latter reflects no-agenda personal exploration. If you have questions or would like to extend any of these, please <a href="mailto:nascimento.mario@gmail.com">email me</a>.
+      </p>
+
+      <h3>Demonstration papers</h3>
+      <ul>
+        <li>
+          <strong>Balancing Travel Time and Range Anxiety in Route Planning for Electric Vehicles</strong>, with Zi Hao Li and Palkan Motwani.
+          (<a href="https://dl.acm.org/doi/10.1145/3748777.3748799">SSTD 2025 Demo Paper</a>,
+          <a href="https://yr2.app">Website</a>,
+          <a href="https://github.com/nascimento-mario/yr2">GitHub</a>)
+        </li>
+        <li>
+          <strong>ShadeRoute: A Cloud-Based App for Shade-Optimized Routes</strong>, with Han Nie.
+          (<a href="https://dl.acm.org/doi/10.1145/3748777.3748797">SSTD 2025 Demo Paper</a>,
+          <a href="https://shaderoute.me">Website</a>,
+          <a href="https://github.com/nascimento-mario/ShadeRoute">GitHub</a>)
+        </li>
+      </ul>
+
+      <h3>Mobile apps</h3>
+      <ul>
+        <li>
+          <strong>Tilt2Score</strong> – An Android ball-rolling game with tilt controls for hand–eye coordination.
+          (<a href="https://github.com/nascimento-mario/Tilt2Score">GitHub</a>)
+        </li>
+        <li>
+          <strong>SnakeFinger</strong> – A browser-based, webcam-controlled Snake game using finger gestures.
+          (<a href="https://github.com/nascimento-mario/SnakeMove">GitHub</a>)
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:nascimento.mario@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/mario-nascimento-a9362a3/">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      (All the above is to be considered perennial work in progress.)
+    </footer>
+
+  </div>
+</body>
+</html>
