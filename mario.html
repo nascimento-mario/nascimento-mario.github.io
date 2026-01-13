@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Permissions-Policy" content="camera=*, microphone=*">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Mario Nascimento</title>
+
+  <style>
+    :root {
+      --bg: #4B6F44;
+      --bg-alt: #BFD65E;
+      --text: #2e2e2e;
+      --muted: #6b6b6b;
+      --accent: #4a4a4a;
+      --border: #d6d6d6;
+      --max-width: 760px;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      width: 100%;
+      background: white;
+      padding: 2.5rem 2rem;
+      border: 1px solid var(--border);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    header img {
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-alt);
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.8rem;
+    }
+
+    nav {
+      margin-bottom: 2.5rem;
+      padding: 1.2rem 1.5rem;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+    }
+
+    nav h2 {
+      margin-top: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0.8rem 0 0;
+      columns: 2;
+    }
+
+    nav li {
+      margin: 0.3rem 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent);
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-family: Helvetica, Arial, sans-serif;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    section h3 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.05rem;
+      margin-top: 1.6rem;
+      margin-bottom: 0.4rem;
+      color: var(--accent);
+    }
+
+    section ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section li {
+      margin-bottom: 0.4rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav ul {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <img src="Images/mn-picture.jpg" alt="Profile picture" />
+      <h1>Mario Nascimento (Personal Website)</h1>
+    </header>
+
+    <nav>
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#bio">Short Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        This website is meant mainly to record some of my academic past (e.g., affiliations and publications), as well as to share a few things (e.g., coding “adventures”) I have been doing more recently.
+      </p>
+      <p>
+        From a more personal side, I like photography (it is amazing what one can do with cell phones these days!) and running outdoors, with the goal of doing 10 km in the same number of minutes as my age (so far, so good!). I also enjoy traveling (though I have grown tired of long flights), and have been fortunate that my work has contributed to that a great deal (I have been to <a href="https://nascimento-mario.github.io/Images/myVisitedPlaces.png">50 countries</a>, something I'd never have thought of accomplishing some 30 years ago!)
+      </p>
+	  <p style="color: DarkOliveGreen;">
+        <em>Times are tough for a lot of people, please consider donating to those in need, e.g., supporting <a href="https://www.doctorswithoutborders.ca/">Doctors Without Borders</a>. Information by <a href="https://www.charityintelligence.ca/">Charity Intelligence Canada </a> can help you make an informed decision about to which Canadian organization to donate according to your goals and wishes.</em>
+	  </p>
+    </section>
+
+    <section id="bio">
+      <h2>Short Bio</h2>
+      <p>
+        I have been in academia since 1996 and am currently in semi-retirement mode. That is, while I do not hold a full-time (paid) position, I continue to collaborate with (and visit) colleagues.
+      </p>
+      <p>
+        In academia, publications matter a lot. For most of my academic life, my main research interests have been related to spatiotemporal data management. According to Google Scholar, <a href="https://scholar.google.com/citations?hl=en&user=_Pzbd0kAAAAJ">my publications have been cited over 5,200 times</a> as of Dec./2025, yielding an h-index of 35. DBLP kindly maintains (most of) my publications organized by year <a href="https://dblp.org/pid/n/MarioANascimento.html">here</a>.
+      </p>
+      <p>
+        Regarding academic positions I am currently a Professor Emeritus at the <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta's Department of Computing Science</a> and an Adjunct Professor at the <a href="https://www.uvic.ca/ecs/computerscience/index.php">University of Victoria's Department of Computer Sciences</a>. I have also served as (from most to least recent):
+      </p>
+      <ul>
+        <li>Director of Pacific Northwest Research at <a href="https://www.khoury.northeastern.edu/">Northeastern University’s Khoury College of Computer Sciences</a></li>
+        <li>Professor in the <a href="https://www.ualberta.ca/computing-science/index.html">University of Alberta's Department of Computing Science</a> (including six years as its Department Chair)</li>
+        <li>Researcher with the <a href="http://www.embrapa.br/english">Brazilian Agency for Agricultural Research</a> (EMBRAPA)</li>
+        <li>Part-time faculty member at the <a href="http://www.ic.unicamp.br/">Institute of Computing, University of Campinas</a> (UNICAMP)</li>
+      </ul>
+      <p>
+        Over the years, e.g., during sabbatical leaves, I have also been a visiting professor at <a href="http://www.ifi.lmu.de/">LMU’s Institute for Informatics</a> in Germany, at the <a href="http://www.mdcc.ufc.br/">Department of Computer Science at the Federal University of Ceara</a> in Brazil.<a href="http://www.comp.nus.edu.sg/">National University of Singapore’s School of Computing</a>, and at the <a href="http://www.cs.aau.dk/en/">Aalborg University’s Department of Computer Science</a> in Denmark.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        There are two types of open-source projects I have worked on recently: academic work and mobile apps I have dabbled in. The former typically originates from academic research translated into demonstration papers, whereas the latter reflects no-agenda personal exploration. If you have questions or would like to extend any of these, please <a href="mailto:nascimento.mario@gmail.com">email me</a>.
+      </p>
+
+      <h3>Demonstration papers</h3>
+      <ul>
+        <li>
+    	<em>Balancing Travel Time and Range Anxiety in Route Planning for Electric Vehicles</em> (with <a href="https://www.linkedin.com/in/zi-hao-li-1b2932225/">Zi Hao Li</a> and <a href="https://www.linkedin.com/in/palkan-motwani/">Palkan Motwani</a>).	      <br>
+	  	The rapid adoption of electric vehicles calls for efficient and specialized route planning solutions. Existing solutions focus primarily on minimizing travel time or the number of necessary stops for recharging. In particular, not much attention has been given to the “range anxiety problem,” i.e., maximizing proximity to charging stations and maintaining a given minimal acceptable battery level. This paper presents a route planning approach that generates Pareto-optimal routes by considering both travel time and range anxiety. Our solution leverages a multi-objective version of the well-known A* algorithm in order to find diverse route options that reflect trade-offs between those two conflicting objectives. We show the viability of our approach by implementing it as a standalone web-based application using openly accessible datasets for road networks and charging stations.
+        <br>
+          (<a href="https://dl.acm.org/doi/10.1145/3748777.3748799">SSTD 2025 Demo Paper</a>,
+          <a href="https://yr2.app">Website</a>,
+          <a href="https://github.com/nascimento-mario/yr2">Github</a>)
+        </li>
+        <li>
+        <em>ShadeRoute: A Cloud-Based App for Shade-Optimized Routes</em> (with <a href="https://www.linkedin.com/in/hannie2/">Han Nie</a>).
+	      <br>
+	      Finding the shortest route between two locations is a well-researched problem. We address a variation thereof, the “shade-optimizing routing problem,” which allows one to set a preference for routes with more or less shade. This kind of problem is of interest, for instance, for runners and bikers, who may prefer shadier routes during summer heat or around noon time, and sunnier ones in late fall or early morning. As our main contribution, this demonstration paper presents ShadeRoute, a open-sourced cloud-based app that leverage open datasets and APIs in order to provide routes that fit the user’s priorities regarding shade (or not) at a given route and particular time.
+	      <br>
+          (<a href="https://dl.acm.org/doi/10.1145/3748777.3748797">SSTD 2025 Demo Paper</a>,
+          <a href="https://shaderoute.me">Website</a>,
+          <a href="https://github.com/nascimento-mario/ShadeRoute">Github</a>)
+        </li>
+		<li>
+        <em>BikeVibes: An app for crowdsourcing open road quality data from a cyclist perspective</em> (with <a href="https://www.linkedin.com/in/kai-luedemann-bb5402211/">Kai Luedemann</a>).
+	      <br>
+	      This paper presents BikeVibes, an app that cyclists can use to log data regarding the smoothness of their rides. The main goal of BikeVibes is to facilitate the collection of anonymized open data about road quality that others can download and peruse. A few sample scenarios where having this type of crowdsourced data would be useful are as follows. A city can use the gathered data in order to determine which roads need to be maintained/upgraded since the quality of the road can be perceived very differently when riding a bike compared to driving a car. Likewise, a city can determine paths that are more frequently used by cyclists in order to decide where to build or upgrade dedicated bike lanes and/or how to prioritize maintenance. Also, third-party app developers can use the road quality data to suggest paths to cyclists based on smoothness, as this may be an important attribute for some people, e.g., in the case of parents riding bicycles hauling trailers with children. None of these scenarios could be easily contemplated without the availability of data such as that gathered through BikeVibes.
+	      <br>
+          (<a href="https://dl.acm.org/doi/10.1145/3557991.3567779">ACM SIGSPATIAL IWCTS 2022 Paper</a>,
+          <a href="https://www.bikevibes.ca/">Website</a>,
+          <a href="https://github.com/nascimento-mario/bikevibes-app">App Github</a> and <a href="https://github.com/nascimento-mario/bikevibes-app">Webserver's Github</a>)
+        </li> 
+      </ul>
+
+      <h3>Mobile apps</h3>
+      <ul>
+        <li>
+        <em>Tilt2Score</em> [<a href="https://nascimento-mario.github.io/Images/Tilt2ScoreLanding.jpg">Image 1</a>] [<a href="https://nascimento-mario.github.io/Images/Tilt2ScoreGame.jpg">Image 2</a>]
+	      <br>
+	      A physics-based tilt game where you guide a soccer ball into the goal by tilting your device. Improve your hand-eye coordination navigating through obstacles, beating your best times, and unlocking increasingly challenging levels. (For now it only works on Android-based devices.)
+	      <br>
+          (<a href="https://nascimento-mario.github.io/Artifacts/Tilt2ScorePreRelease.apk">Pre-release APK</a>, <a href="https://github.com/nascimento-mario/Tilt2Score">Github</a>)
+        </li>
+        <li>
+        <em>SnakeFinger</em> [<a href="https://nascimento-mario.github.io/Images/SnakeFingerLanding.png">Image</a>]
+	      <br>
+	      A browser-based, webcam-controlled version of the classical <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)">Snake game</a> where you control the snake using finger gestures! Designed with accessibility in mind, it features adjustable difficulty settings for players of different ages and skill levels. (Although the game requires access to the webcam, the application does not record/transmit anything, for now it does not work on mobile devices.)
+	      <br>
+          (<a href="https://nascimento-mario.github.io/SnakeMove/snakemove.html" 
+   			rel="noopener noreferrer" 
+   			target="_blank">Play now!</a>,
+	       <a href="https://github.com/nascimento-mario/SnakeMove">Github</a>)
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><p style="font-family: Courier New;"><a href="mailto:mario@abacate.ca">mario@abacate.ca</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      (This page is hosted on Github Pages and is to be considered perennial work in progress.)
+    </footer>
+
+  </div>
+</body>
+</html>
